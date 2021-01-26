@@ -55,7 +55,7 @@ body {
 .img-container img{
   height: 100%;
   width: 100%;
-  border-radius: 50%;
+  border-radius: 100%;
   object-fit:cover;
   border-radius: 20px;
   box-shadow: 5px 15px 10px rgba(0,0,0,0.3);
@@ -68,6 +68,7 @@ h2 {
   font-size: 25px;
   text-align: center;
   margin: 0;
+  user-select: none;
 }
 
 h3 {
@@ -75,6 +76,7 @@ h3 {
   text-align: center;
   font-weight: 400;
   margin: 5px 0 0;
+  user-select: none;
 }
 
 
@@ -112,6 +114,7 @@ h3 {
 }
 
 .fas {
+  position:relative;
   font-size: 30px;
   color: rgb(253, 244, 244);
   margin-right: 30px;
@@ -134,20 +137,26 @@ h3 {
 
 
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 380px) {
    .container{
-     width:95vw;
+     width:90vw;
    }
 
   .img-container {
-    left: 20px;
+    left: 40px;
   }
 
   .img-container img{
-    width:90vw;
-    height:90%;
+   
+    width:80%;
+    height:85%;
 
   }
+
+  .fas{
+      right:35px;
+  }
+
   h2 {
     font-size: 20px;
   }
