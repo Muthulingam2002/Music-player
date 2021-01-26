@@ -31,15 +31,16 @@ body {
 .container{
   height: 500px;
   width: 400px;
-  
   justify-content: center;
   align-items: center;
   background-color:#e7e7e7 ;
   border-radius: 20px;
-  box-shadow: 5px 15px 10px rgba(0,0,0,0.3);
-  background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+  box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+  background: rgba(255, 255, 255, 0.1);
+  border-top:1px solid rgba(255, 255, 255, 0.5);
+  border-left:1px solid rgba(255, 255, 255, 0.5);
   border-radius: 20px;
-  backdrop-filter: blur(2rem);
+  backdrop-filter: blur(5px);
   
 }
 
@@ -49,7 +50,14 @@ body {
   width:300px;
   position: relative;
   top: -50px;
-  left:50px
+  left:50px;
+  box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+  background: rgba(255, 255, 255, 0.1);
+  border-top:2px solid rgba(255, 255, 255, 0.5);
+  border-left:2px solid rgba(255, 255, 255, 0.5);
+  overflow: hidden;
+  border-radius: 20px;
+
 }
 
 .img-container img{
@@ -60,6 +68,7 @@ body {
   border-radius: 20px;
   box-shadow: 5px 15px 10px rgba(0,0,0,0.3);
   user-select: none;
+  
 
 }
 
