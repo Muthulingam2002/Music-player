@@ -15,43 +15,43 @@ const nextBtn=document.getElementById("next");
 const songs=[
     {
         name:'illayaraja',
-        displayName:'songPeru',
+        displayName:'Thendral Vanthu',
         artist:'Muthu'
     },
 
     {
         name:'ARrahuman',
-        displayName:'songPeru',
+        displayName:'Nanban Oruvan',
         artist:'Muthu'
     },
 
     {
         name:'SidSriram',
-        displayName:'songPeru',
+        displayName:'High On Love',
         artist:'Muthu'
     },
 
     {
         name:'KGF',
-        displayName:'songPeru',
+        displayName:'MayI Come In!',
         artist:'Muthu'
     },
 
     {
         name:'U1',
-        displayName:'songPeru',
+        displayName:'Kadhal Aasai',
         artist:'Muthu'
     },
 
     {
         name:'Anirudh',
-        displayName:'songPeru',
+        displayName:'Vathi Raid',
         artist:'Muthu'
     },
 
     {
         name:'HipHop',
-        displayName:'songPeru',
+        displayName:'Venga mavan',
         artist:'Muthu'
     },
 
