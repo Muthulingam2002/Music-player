@@ -79,6 +79,10 @@ h3 {
   user-select: none;
 }
 
+span{
+  user-select: none;
+
+}
 
 
 /* Progress */
@@ -139,7 +143,7 @@ h3 {
 
 @media screen and (max-width: 400px) {
    .container{
-     width:90vw;
+     width:80vw;
    }
 
   .img-container {
@@ -148,13 +152,13 @@ h3 {
 
   .img-container img{
    
-    width:80%;
-    height:85%;
+    width:70%;
+    height:75%;
 
   }
 
   .fas{
-      right:35px;
+   right:47px;
   }
 
   h2 {
@@ -170,3 +174,4 @@ h3 {
     left: 100px;
   }
 }
+
