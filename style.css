@@ -157,6 +157,8 @@ span{
 
   .img-container {
     left: 45px;
+    width:70%;
+    height:75%;
   }
 
   .img-container img{
