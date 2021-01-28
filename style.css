@@ -7,24 +7,47 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  background: #c9ced3;
-  background:url("img/MoneyHeist.jpg");
-  background-repeat: no-repeat;
-  background-size:cover;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: 'Spartan', sans-serif;
   font-size: 12px;
   background: #000046; 
-  background: linear-gradient(to left, #1CB5E0, #000046);
-
-
+  /* background: rgba(251, 6, 6, 0.9);
+  background: rgba(0, 20,255, 0.9);
+  background:rgb(0, 172, 23);
+  background:rgb(0, 26, 172); */
+  overflow:hidden;
+  position:relative;
 }
 
 
 #full{
   background: url();
+}
+
+
+.circle {
+  position:absolute;
+  left: 15vw;
+  top: -20vh;
+  width: 600px;
+  height: 600px;
+  background:linear-gradient(rgb(0, 217, 255),#f0f);
+  border-radius: 50%;
+  z-index: -1;
+
+}
+
+.circle2{
+  position:absolute;
+  left: 56vw;
+  top: 60vh;
+  width: 300px;
+  height: 300px;
+  background:linear-gradient(rgb(0, 195, 255),rgb(255, 107, 255));
+  border-radius: 50%;
+  z-index: -1;
 }
 
 
@@ -40,12 +63,11 @@ body {
   border-top:1px solid rgba(255, 255, 255, 0.5);
   border-left:1px solid rgba(255, 255, 255, 0.5);
   border-radius: 20px;
-  backdrop-filter: blur(5px);
-  
+  backdrop-filter: blur(3px);  
 }
 
-.img-container {
 
+.img-container {
   height:300px;
   width:300px;
   position: relative;
@@ -57,8 +79,8 @@ body {
   border-left:2px solid rgba(255, 255, 255, 0.5);
   overflow: hidden;
   border-radius: 20px;
-
 }
+
 
 .img-container img{
   height: 100%;
@@ -68,14 +90,16 @@ body {
   border-radius: 20px;
   box-shadow: 5px 15px 10px rgba(0,0,0,0.3);
   user-select: none;
-  
+  z-index: 2;
 
 }
+
 
 
 h2 {
   font-size: 25px;
   text-align: center;
+  color:white;
   margin: 0;
   user-select: none;
 }
@@ -83,6 +107,7 @@ h2 {
 h3 {
   font-size: 20px;
   text-align: center;
+  color: rgb(251, 231, 231);
   font-weight: 400;
   margin: 5px 0 0;
   user-select: none;
@@ -90,7 +115,6 @@ h3 {
 
 span{
   user-select: none;
-
 }
 
 
@@ -133,13 +157,10 @@ span{
   margin-right: 30px;
   user-select: none;
   cursor: pointer;
- 
-
 }
 
 .fas:hover{
   filter: brightness(80%);
-
 }
 
 .main-button {
@@ -151,21 +172,20 @@ span{
 
 
 @media screen and (max-width: 400px) {
-   .container{
-     width:80vw;
+
+  .container{
+    width:80vw;
    }
 
-  .img-container {
-    left: 45px;
-    width:50%;
-    height:50%;
-  }
+    .img-container {
+      left: 45px;
+      width:70%;
+      height:75%;
+    }
 
   .img-container img{
-   
     width:70%;
     height:75%;
-
   }
 
   .fas{
@@ -184,5 +204,12 @@ span{
     top: 10px;
     left: 100px;
   }
-}
 
+  .progress-container {
+    margin: 40px 20px;
+    height: 4px;
+    width: 90%;
+  }
+  
+  
+}
