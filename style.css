@@ -174,7 +174,10 @@ span{
 
 
 @media screen and (max-width: 400px) {
-
+  
+  body{
+    height:90%;
+  }
   .container{
     width:80vw;
     height:400px;
