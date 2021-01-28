@@ -170,26 +170,27 @@ span{
 }
 
 
-
 @media screen and (max-width: 400px) {
 
   .container{
     width:80vw;
+    height:400px;
    }
 
     .img-container {
-      left: 45px;
-      width:70%;
-      height:75%;
+      left: 62px;
+      width:60%;
+      height:40%;
     }
 
   .img-container img{
-    width:70%;
-    height:75%;
+    width:100%;
+    height:100%;
   }
 
   .fas{
-   right:47px;
+   right:40px;
+   width:20px;
   }
 
   h2 {
@@ -200,14 +201,22 @@ span{
     font-size: 15px;
   }
 
-  .player-controls {
-    top: 10px;
-    left: 100px;
-  }
+.circle{
+  height:300px;
+  width: 300px;
+  left:-90px;
+  top:10px;
+}
+.circle2{
+  height:180px;
+  width: 180px;
+  left:270px;
+  top:450px;
+}
 
   .progress-container {
-    margin: 40px 20px;
-    height: 4px;
+    margin: 90px 10px;
+    height: 3px;
     width: 90%;
   }
   
