@@ -174,10 +174,8 @@ span{
 
 
 @media screen and (max-width: 400px) {
-  
-  body{
-    height:90%;
-  }
+
+
   .container{
     width:80vw;
     height:400px;
@@ -214,8 +212,8 @@ span{
   top:10px;
 }
 .circle2{
-  height:170px;
-  width: 170px;
+  height:180px;
+  width: 180px;
   left:270px;
   top:450px;
 }
