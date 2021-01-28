@@ -13,21 +13,9 @@ body {
   font-family: 'Spartan', sans-serif;
   font-size: 12px;
   background: #000046; 
-
-  background: rgba(0, 20,255, 0.9);
-
-  background:rgb(234, 250, 9); 
-  background: #000046; 
-  background:rgb(253, 157, 0); 
-  background:rgb(2, 161, 23);
-  background: rgba(251, 6, 6, 0.979);
-  background:#ff6600;
- background: linear-gradient(to left, #0f9b0f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-  overflow-x:hidden;
-  overflow-y:hidden;
   position:relative;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 
