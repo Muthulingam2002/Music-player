@@ -15,7 +15,7 @@ const nextBtn=document.getElementById("next");
 const songs=[
     {
         name:'ArRahuman',
-        displayName:'Mukkala',
+        displayName:'Nadhiye Nadhiye',
         artist:'Muthu',
         color:'#000046'
     },
