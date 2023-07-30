@@ -1,6 +1,6 @@
 # Music-player
 
-# [LIVE LINK 👈](https://muthulingamdeveloper.github.io/Music-player/) 
+# [LIVE LINK 👈](https://muthulingam2002.github.io/Music-player/) 
 
 This is a music player app which is made only using html,css,javascript
 
